@@ -1,0 +1,189 @@
+.navBar{
+  margin-left: 2rem;
+  padding-right: 12rem;
+}
+
+/* .diningheader{
+  padding: 1rem 10rem 0 5rem; 
+  background-color: #f2f2f2;
+ 
+} */
+.parent-cont {
+  width: 100%;
+}
+
+.container {
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+background-color: #f2f2f2;
+margin-top: 2rem;
+margin-bottom: 5rem;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+
+
+}
+
+.collec-card {
+  flex: 0 0 calc(25% - 20px); 
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+
+ 
+}
+
+.collec-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+ 
+ 
+}
+
+ .collec-card h6 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+ 
+} 
+
+/* .card h6.card-text-overlay {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+} */
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .card {
+      flex: 0 0 calc(50% - 20px); /* 2 cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+      flex: 0 0 100%; /* 1 card per row on extra small screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* parent-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.container {
+display: flex; 
+flex-direction: column;
+margin-top: 5rem;
+margin: 1rem;
+height: 400px; 
+background-color: #f2f2f2; 
+padding: 5px;
+width: 100%;
+}
+
+.off-image{
+margin: 2rem;
+display: inline-block;
+overflow: hidden;
+}
+.off-image img {
+width: 100%;
+height: 250px;
+border: 1px solid #ddd;
+} 
+.title {
+font-size: 24px; 
+font-weight: bold; 
+margin-bottom: 10px; 
+}
+
+.text {
+color: #333; 
+margin-bottom: 20px; 
+}
+
+.card-container {
+display: flex; 
+flex-wrap: wrap; 
+justify-content: space-between; 
+}
+
+.card {
+  width: 300px; 
+  height: 250px;
+position: relative; 
+background-color: #fff; 
+border-radius: 5px; 
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+overflow: hidden; 
+}
+
+
+.card-image {
+  width: 300px; 
+  height: 250px;
+object-fit: cover; 
+position: relative;
+}
+
+
+.overlay {
+position: absolute; 
+bottom: 0;
+left: 0;
+width: 50%;
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.5); 
+transition: opacity 0.3s ease-in-out; 
+}
+
+.card-title {
+color: #fff; 
+font-weight: bold; 
+margin-bottom: 5px; 
+}
+
+.card-text {
+color: #fff; 
+font-size: 14px; 
+}     */
